@@ -1,0 +1,55 @@
+/* 1. Box-sizing для всего */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Убираем отступы у всех элементов */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Убираем маркеры у списков */
+ul, ol {
+  list-style: none;
+}
+
+/* 4. Обнуляем стили ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 5. Убираем стандартный курсив у <em>/<i> */
+em, i {
+  font-style: normal;
+}
+
+/* 6. Наследуем шрифт для форм */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Настройки для body */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #000;
+}
+
+/* 8. Картинки адаптивные */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 9. Обнуляем границы и фон у форм */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
