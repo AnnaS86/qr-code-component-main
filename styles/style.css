@@ -110,8 +110,9 @@ h3 {
 
 .attribution {  
   display: block; 
-  width: 288px; 
+  width: 256px; 
   margin: 0 auto;
+  text-align: center;
 }
 
 /* @media (min-width: 768px) — пока изменений нет */
